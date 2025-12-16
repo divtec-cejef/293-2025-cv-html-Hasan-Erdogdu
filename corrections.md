@@ -36,3 +36,4 @@
 
  ## Autres
 - Attention à l'indentation et à la lisibilité du code
+- Description dans le `<head>`
