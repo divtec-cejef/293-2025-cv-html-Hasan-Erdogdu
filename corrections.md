@@ -19,6 +19,7 @@
 ```
 <link rel="icon" href="./favicon.ico">
 ```
+- référencez les bonnes tailles d'icônes selon ce que vous écrivez dans le HTML (attribut `size`) --> utilisez le site favicon.io !
 
 ## E) Balise `<section>` mal fermée
 - Une balise `<section>` n’est pas correctement fermée (ligne 60)
