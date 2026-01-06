@@ -24,3 +24,8 @@ a {
 a:hover {
     color: darkmagenta;
 }
+
+main + h1 {
+    color: #663399
+    font-size: 5em
+}
