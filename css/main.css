@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }
 
+img {
+  width: 180px;
+  height: auto;
+}
+  
 body {
   background-image: url('https://www.transparenttextures.com/patterns/white-diamond.png');
   background-color: whitesmoke;
@@ -65,3 +70,9 @@ section {
   border: 2px solid #663399;
   margin-bottom: 20px;
   padding: 20px
+
+.peter-death {
+  height: auto;
+  width: 240px;
+}
+  
