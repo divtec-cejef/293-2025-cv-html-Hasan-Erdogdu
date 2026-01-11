@@ -26,6 +26,17 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../noto-sans-jp-v55-japanese-regular.woff2') format('woff2');
+
+header {
+  padding: 20px;
+}
+
 body {
   font-family: Arial, sans-serif;
   font-weight: 400;
@@ -40,11 +51,29 @@ img {
   width: auto;
 }
 
+.menu {
+    
+
 a {
-  color: deeppink;
-  text-decoration: none;
+    color: deeppink;
+    text-decoration: none;
+    font-size: 1.05rem
+    text-align: end;
 }
 
 a:hover {
     color: darkmagenta;
 }
+
+h1 {
+    color: #663399;
+    font-size: 3em;
+}
+
+main p {
+    font-size: 18px;
+}
+footer {
+  margin: 20px;
+}
+
