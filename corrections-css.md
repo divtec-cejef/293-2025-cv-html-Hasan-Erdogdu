@@ -128,23 +128,3 @@ Puis gérer les tailles avec des classes spécifiques.
 > *Le détail se gère avec des classes, pas avec des sélecteurs globaux.*
 
 ---
-
-## Corrections HTML nécessaires (impact CSS)
-
-### 1️⃣ Image cliquable : `href` incorrect ❌
-
-Actuellement :
-```
-<a href="#./img/logo.png">
-```
-
-❌ `#` empêche l’ouverture du fichier
-
-À corriger :
-```
-<a href="./img/logo.png" target="_blank">
-```
-
-💡 *Un lien vers un fichier ne doit jamais commencer par `#`.*
-
----
