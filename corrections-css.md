@@ -149,23 +149,6 @@ Actuellement :
 
 ---
 
-### 2️⃣ IDs avec accents dans le menu ❌
-
-Exemple :
-``` <a href="#compétences">
-
-<section id="competences">
-```
-
-❌ Ne correspond pas
-
-À corriger :
-
-* supprimer accents
-* uniformiser `href` et `id`
-
----
-
 ### 3️⃣ Structure de listes incorrecte ❌
 
 Exemples :
