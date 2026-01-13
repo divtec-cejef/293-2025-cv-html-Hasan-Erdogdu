@@ -10,7 +10,7 @@
 }
 
 img {
-  width: 180px;
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -23,7 +23,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.4;
   max-width: 800px;
-  margin: 120px;
+  margin: 0 auto;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -73,10 +73,18 @@ h1 {
   margin-bottom: 20px;
 }
 
+h2 {
+font-size: 24px;
+}
+
+p {
+font-size: 1rem;
+}
+
 section {
   border: 2px solid #663399;
   margin-bottom: 20px;
-  padding: 20px
+  padding: 20px;
   border-radius: 8px;
 }
 
@@ -85,6 +93,6 @@ img.peter-death {
   width: 240px;
 }
   
-a::hover {
-  color: #FF0033;
+a:hover {
+color: #FF0033;
 }
